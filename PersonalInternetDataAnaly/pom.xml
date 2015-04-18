@@ -1,0 +1,196 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.xiao.prism</groupId>
+  <artifactId>Prism</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+<repositories>
+		<repository>
+			<id>cloudera</id>
+			<url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+		</repository>
+		<repository>
+   		 <id>cloudera-repo-releases</id>
+   		 <url>https://repository.cloudera.com/artifactory/repo/</url>
+  		</repository>
+	</repositories>
+	
+	<properties>
+		<project.build.sourceEncoding>
+			UTF-8
+		</project.build.sourceEncoding>
+	</properties>
+	
+	
+	<dependencies>
+	
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-annotations</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-archives</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-assemblies</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-auth</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-common</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-datajoin</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-distcp</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-extras</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-gridmix</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-hdfs</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-hdfs-nfs</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-openstack</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-rumen</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-sls</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-api</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-applications-distributedshell</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-applications-unmanaged-am-launcher</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-client</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-client</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-client</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-client</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-common</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-server-applicationhistoryservice</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-server-common</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-server-nodemanager</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-server-resourcemanager</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-server-tests</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-server-web-proxy</artifactId>
+			<version>2.5.0-cdh5.2.5</version>
+		</dependency>
+
+  <dependency>
+     <groupId>org.apache.hadoop</groupId>
+     <artifactId>hadoop-client</artifactId>
+     <version>2.5.0-cdh5.2.5</version>
+   </dependency>
+
+	</dependencies>
+</project>
